@@ -18,7 +18,12 @@
 - 발표 후에 궁금한 점, 논의가 필요한 점을 이야기합니다.
     - 해당 내용은 질문, 논의별 [Issue](https://github.com/FEBookStudy/Grokking-Simplicity/issues)를 생성해 기록합니다.
 
-
+# 발표 방식
+- 주차 별 브랜치에 정리한 내용을 commit합니다. (`week-1` 브랜치에 `/docs/1주차/이름.md`)
+- 발표 당일에 `main` 브랜치로 PR을 합니다.
+  - CODEOWNERS와 팀 설정으로 reviewer가 1명 자동 선정됩니다. (Load balance)
+  - 해당 PR에 comment로 주차 별 논의 사항을 함께 정리합니다.
+- 선정된 reviewer가 발표를 진행합니다.
 
 # 스터디 상세 일정표
 
