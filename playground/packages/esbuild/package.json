@@ -1,0 +1,9 @@
+{
+  "name": "@functional-javascript-programming/esbuild-config",
+  "version": "0.0.2",
+  "main": "index.js",
+  "files": ["index.js"],
+  "dependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
