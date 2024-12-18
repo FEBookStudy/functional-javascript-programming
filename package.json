@@ -1,0 +1,26 @@
+{
+  "name": "functional-javascript-programming",
+  "private": true,
+  "scripts": {
+    "clean:branch": "git fetch --prune && git branch | grep -v '^*' | xargs git branch -D",
+    "clean:cache": "turbo clean",
+    "build:all": "turbo build",
+    "start": "turbo start",
+    "lint": "turbo lint",
+    "format": "turbo format",
+    "prepare": "husky",
+    "preinstall": "corepack enable"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "husky": "^9.0.11",
+    "nano-staged": "^0.8.0",
+    "turbo": "^2.0.7",
+    "typescript": "^5.4.5",
+    "@types/node": "20.13.0"
+  },
+  "packageManager": "pnpm@9.1.0",
+  "engines": {
+    "node": "20.13.0"
+  }
+}
